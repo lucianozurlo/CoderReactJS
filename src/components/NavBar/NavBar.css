@@ -31,7 +31,7 @@
 .NavBar ul li a:hover {
 	opacity: .5;
 }
-.NavBar .menu {
+.NavBar .Menu {
     position: absolute;
     width: 100%;
     height: 100%;

@@ -1,5 +1,6 @@
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 
 const App = () => {
   return (
@@ -7,9 +8,7 @@ const App = () => {
       <header className="App-header">
         <NavBar />
         <img src={'./img/logo192.png'} className="App-logo" alt="logo" />
-        <p>
-          Bienvenidos
-        </p>
+        <ItemListContainer greeting={'Bienvenidos'} />
       </header>
     </div>
   );
